@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ShoeShop/static/css/main.12cfca48.css",
-    "main.js": "/ShoeShop/static/js/main.94dfc005.js",
+    "main.css": "/ShoeShop/static/css/main.4d191ad1.css",
+    "main.js": "/ShoeShop/static/js/main.5cf6bdcc.js",
     "static/media/baby-puppy-dog-in-big-shoes-png-transparent-image-3eoKzW.png": "/ShoeShop/static/media/baby-puppy-dog-in-big-shoes-png-transparent-image-3eoKzW.ad8cf05ed081e5cc2a50.png",
     "static/media/RobertSans-Medium.ttf": "/ShoeShop/static/media/RobertSans-Medium.54bcc50102c0a9b40469.ttf",
     "static/media/Quantico-Regular.ttf": "/ShoeShop/static/media/Quantico-Regular.3faac7b366ab13616d56.ttf",
     "static/media/sheep-svgrepo-com.svg": "/ShoeShop/static/media/sheep-svgrepo-com.2dfbc9d6029a29cf413ea447c42ea147.svg",
     "static/media/shopping-cart-outline-svgrepo-com.svg": "/ShoeShop/static/media/shopping-cart-outline-svgrepo-com.be69e1fc3a6e64eeef6319aabb2699c1.svg",
     "index.html": "/ShoeShop/index.html",
-    "main.12cfca48.css.map": "/ShoeShop/static/css/main.12cfca48.css.map",
-    "main.94dfc005.js.map": "/ShoeShop/static/js/main.94dfc005.js.map"
+    "main.4d191ad1.css.map": "/ShoeShop/static/css/main.4d191ad1.css.map",
+    "main.5cf6bdcc.js.map": "/ShoeShop/static/js/main.5cf6bdcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.12cfca48.css",
-    "static/js/main.94dfc005.js"
+    "static/css/main.4d191ad1.css",
+    "static/js/main.5cf6bdcc.js"
   ]
 }
