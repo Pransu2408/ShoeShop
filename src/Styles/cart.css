@@ -1,5 +1,6 @@
 
 .cart_box{
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -7,6 +8,12 @@
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.deets{
+  position: absolute;
+  left: 500px;
+
 }
 
 .cart_img .theimg{

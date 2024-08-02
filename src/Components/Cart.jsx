@@ -25,13 +25,12 @@ const Cart = ({cart,setCart}) => {
         <div className='cart_box' key={item.id}>
           <div className='cart_img'>
             <img alt='shoe' className='theimg' src={item.img}></img>
-
           </div>
-          <div>
+          <div className='deets'>
             <p className='itemtit'>{item.title}</p>
             <span className='itemprice'>MRP : &#x20B9; {item.price}</span>
+            </div>
             <button className='button-17' onClick={()=>removeItem(item.id)}>Remove</button>
-          </div>
           <div>
 
 
