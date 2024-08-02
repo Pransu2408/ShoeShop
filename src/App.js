@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Navbar from "./Components/Navbar";
+import Shop from "./Components/Shop";
+import Cart from "./Components/Cart";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+
+  const[cart,setCart] = useState([]);
+  const[warning,setWarning] = useState(false);
+  const[screen,setScreen] = useState(true);
+
+  const handleClick = (item) => {
+      let isPresent = false;
+      cart.forEach((product)=>{
+        if(item.id === product.id)
+          isPresent = true;
+      })
+      if(isPresent){
+        setWarning(true);
+        setTimeout(()=>{
+          setWarning(false);
+        },2000)
+        return;
+      }
+      setCart([...cart,item]);
+  }
+
+  return (<div>
+    <Navbar setScreen={setScreen} size={cart.length} />
+    { screen ? <Shop handleClick={handleClick} /> : <Cart cart = {cart} setCart ={setCart} ></Cart> }
+
+    
+  </div>);
+};
 
 export default App;

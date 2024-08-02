@@ -1,0 +1,89 @@
+
+
+section{
+    box-sizing: border-box;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    overflow-x: hidden;
+}
+.image_box img{
+    width: 100%;
+}
+.cards{
+    width: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family:'Robot'
+}
+.cards:hover{
+
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0d1b2a;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: -93px;
+    width: 100%;
+}
+.details button:hover{
+    background-color: #1b2d4eb7;
+}
+
+@font-face {
+    font-family: 'Robot';
+    src: url('./RobertSans-Medium.ttf') format('truetype');
+  }
+
+.details .shoename{
+
+    font-weight: 600;
+}
+
+.details .typashoe {
+
+    color: rgba(0, 0, 0, 0.572);
+}
+.details .price {
+    position: relative;
+    top: 15px;
+}
+
+.cards .shoepic{
+    transition: filter 450ms ease-in-out;
+    transition: opacity 450ms ease-in-out;
+}
+
+.image_box:hover .shoepic{
+
+    filter: blur(4px);
+    opacity: 0.4;
+}
+
+.image_box:hover .atc{
+    opacity: 1;
+}
+
+.atc{
+    position: relative;
+    color: #191c208b;
+    top: -140px;
+    left: 87px;
+    font-family: 'Robot';
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.details{
+
+    position: relative;
+    top: -10px;
+}

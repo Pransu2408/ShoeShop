@@ -1,0 +1,209 @@
+
+.cart_box{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cart_img .theimg{
+    width: 300px;
+}
+
+.itemtit{
+    position: relative;
+    left: -150px;
+    top: 10px;
+    font-weight: 1000;
+    font-family: 'Robot';
+
+}
+.itemprice{
+    position: relative;
+    left: -150px;
+    top: 20px;
+    font-family: 'Robot';
+}
+
+.remov{
+
+    position: relative;
+    top: 70px;
+    left:-240px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    transition: background-color 1s ease-in-out;
+}
+
+
+
+/* CSS */
+.button-17 {
+    left:100px;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #84a98c;
+}
+
+
+
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.remov:hover{
+
+    background-color: rgba(0, 0, 0, 0.52);
+}
+
+@font-face {
+    font-family: 'Robot';
+    src: url('./RobertSans-Medium.ttf') format('truetype');
+  }
+
+.summ, .tott{
+
+    width: 90%;
+    margin: 20px auto;
+    font-family: 'Robert', sans-serif;
+}
+
+.summ{
+
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.tott{
+        margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+hr{
+
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+
+
+/* CSS */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  /* display: inline-block; */
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  width: 80%;
+  position: relative;
+
+  left: 10%;
+  top: -50px;
+
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.emptyCart{
+
+  text-align: center;
+  margin-top: 100px;
+  font-size: 26px;
+  font-family: 'Robot';
+}
+
+.dogpic{
+
+  margin-top: 40px;
+  height: 300px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
