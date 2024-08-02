@@ -6,7 +6,7 @@ import Cart from "./Components/Cart";
 const App = () => {
 
   const[cart,setCart] = useState([]);
-  const[warning,setWarning] = useState(false);
+  // const[warning,setWarning] = useState(false);
   const[screen,setScreen] = useState(true);
 
   const handleClick = (item) => {
@@ -15,13 +15,13 @@ const App = () => {
         if(item.id === product.id)
           isPresent = true;
       })
-      if(isPresent){
-        setWarning(true);
-        setTimeout(()=>{
-          setWarning(false);
-        },2000)
-        return;
-      }
+      // if(isPresent){
+      //   setWarning(true);
+      //   setTimeout(()=>{
+      //     setWarning(false);
+      //   },2000)
+      //   return;
+      // }
       setCart([...cart,item]);
   }
 
