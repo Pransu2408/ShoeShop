@@ -14,4 +14,4 @@ function Shop({handleClick}) {
 }
 
 export default Shop
- 
+  

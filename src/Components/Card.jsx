@@ -17,7 +17,7 @@ const Card = ({ item, handleClick }) => {
         {/* <button onClick={() => handleClick(item)}>Add to Cart</button> */}
       </div>
     </div>
-  );
+  ); 
 };
 
 export default Card;

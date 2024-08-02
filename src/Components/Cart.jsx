@@ -19,7 +19,7 @@ const Cart = ({cart,setCart}) => {
     setPrice(tot);
   },[cart]);
 
-  return (
+  return ( 
     <div>{
       cart?.map((item) => (
         <div className='cart_box' key={item.id}>
