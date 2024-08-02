@@ -3,7 +3,7 @@ import "../Styles/card.css";
 
 const Card = ({ item, handleClick }) => {
   const { title, author, price, img } = item;
-
+ 
   return (
     <div className="cards">
       <div className="image_box" onClick={() => handleClick(item)}>

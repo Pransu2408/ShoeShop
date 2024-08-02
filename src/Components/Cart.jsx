@@ -14,7 +14,7 @@ const Cart = ({cart,setCart}) => {
   };
 
   useEffect(() =>{
-
+ 
     const tot = cart.reduce((acc,item) => acc + item.price, 0);
     setPrice(tot);
   },[cart]);

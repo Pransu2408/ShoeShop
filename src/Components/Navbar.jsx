@@ -28,7 +28,7 @@ const Navbar = ({ size, setScreen }) => {
           <span className="noOfItems">{size}</span>
         </div>
       </div>
-    </nav>
+    </nav> 
   );
 };
 
